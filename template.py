@@ -14,7 +14,7 @@ list_of_files=[
     f"src/{project_name}/utils/common.py",
     f"src/{project_name}/logging/__init__.py",
     f"src/{project_name}/config/__init__.py",
-    f"src/{project_name}/config/configuration.py",
+    f"src/{project_name}/config/configuration.py", 
     f"src/{project_name}/pipelines/__init__.py",
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/constants/__init__.py",
@@ -44,4 +44,3 @@ for filepath in list_of_files:
                 logging.info(f"Creating empty file: {filepath}")
         else:
             logging.info(f"File already exists: {filepath}")
-                                        
